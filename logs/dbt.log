@@ -78,3 +78,500 @@ There are 1 unused configuration paths:
 [0m14:50:12.535659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1AAFB8650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1AB2FBD80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1AC4E3A10>]}
 [0m14:50:12.536155 [debug] [MainThread]: Flushing usage events
 [0m14:50:13.422341 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:02:41.999561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D6815A900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D661565D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D68E11810>]}
+
+
+============================== 18:02:42.003527 | 925c467c-3a22-46a3-8001-8de7e5661b02 ==============================
+[0m18:02:42.003527 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:02:42.004426 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m18:02:42.036801 [info ] [MainThread]: dbt version: 1.9.4
+[0m18:02:42.037633 [info ] [MainThread]: python version: 3.13.2
+[0m18:02:42.038179 [info ] [MainThread]: python path: C:\Users\AvinashR2\AppData\Local\pypoetry\Cache\virtualenvs\dbt-assessment-nySvF-L4-py3.13\Scripts\python.exe
+[0m18:02:42.038708 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m18:02:42.121840 [info ] [MainThread]: Using profiles dir at C:\Users\AvinashR2\.dbt
+[0m18:02:42.122681 [info ] [MainThread]: Using profiles.yml file at C:\Users\AvinashR2\.dbt\profiles.yml
+[0m18:02:42.123295 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\AvinashR2\dbt-assesment\dbt_project.yml
+[0m18:02:42.128036 [info ] [MainThread]: adapter type: duckdb
+[0m18:02:42.128688 [info ] [MainThread]: adapter version: 1.9.2
+[0m18:02:42.224044 [info ] [MainThread]: Configuration:
+[0m18:02:42.224762 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m18:02:42.225407 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m18:02:42.226186 [info ] [MainThread]: Required dependencies:
+[0m18:02:42.226784 [debug] [MainThread]: Executing "git --help"
+[0m18:02:42.311950 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m18:02:42.312513 [debug] [MainThread]: STDERR: "b''"
+[0m18:02:42.312941 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m18:02:42.313560 [info ] [MainThread]: Connection:
+[0m18:02:42.314095 [info ] [MainThread]:   database: dev
+[0m18:02:42.314634 [info ] [MainThread]:   schema: main
+[0m18:02:42.315189 [info ] [MainThread]:   path: dev.duckdb
+[0m18:02:42.315715 [info ] [MainThread]:   config_options: None
+[0m18:02:42.316234 [info ] [MainThread]:   extensions: None
+[0m18:02:42.316762 [info ] [MainThread]:   settings: {}
+[0m18:02:42.317283 [info ] [MainThread]:   external_root: .
+[0m18:02:42.317790 [info ] [MainThread]:   use_credential_provider: None
+[0m18:02:42.318996 [info ] [MainThread]:   attach: None
+[0m18:02:42.319797 [info ] [MainThread]:   filesystems: None
+[0m18:02:42.320514 [info ] [MainThread]:   remote: None
+[0m18:02:42.321164 [info ] [MainThread]:   plugins: None
+[0m18:02:42.321716 [info ] [MainThread]:   disable_transactions: False
+[0m18:02:42.322533 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m18:02:42.583701 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m18:02:42.846749 [debug] [MainThread]: Using duckdb connection "debug"
+[0m18:02:42.847182 [debug] [MainThread]: On debug: select 1 as id
+[0m18:02:42.847484 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m18:02:42.872282 [debug] [MainThread]: SQL status: OK in 0.025 seconds
+[0m18:02:42.873300 [debug] [MainThread]: On debug: Close
+[0m18:02:42.873717 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m18:02:42.874240 [info ] [MainThread]: [32mAll checks passed![0m
+[0m18:02:42.875353 [debug] [MainThread]: Command `dbt debug` succeeded at 18:02:42.875213 after 1.04 seconds
+[0m18:02:42.875874 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m18:02:42.876238 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D69562D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D6A85C710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016D69363AC0>]}
+[0m18:02:42.876632 [debug] [MainThread]: Flushing usage events
+[0m18:02:43.756541 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:03:24.730947 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CAD98DE900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CAD78D65D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CADA589810>]}
+
+
+============================== 18:03:24.734842 | ef6799c0-6f4a-424b-a5b8-1c61502869dd ==============================
+[0m18:03:24.734842 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:03:24.735675 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:03:24.922050 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'ef6799c0-6f4a-424b-a5b8-1c61502869dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CADAC7A9E0>]}
+[0m18:03:24.970505 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'ef6799c0-6f4a-424b-a5b8-1c61502869dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CADAAF99D0>]}
+[0m18:03:24.974352 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m18:03:25.328357 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m18:03:25.444079 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 0 files changed.
+[0m18:03:25.444631 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider_address_agg.sql
+[0m18:03:25.444979 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider_types.sql
+[0m18:03:25.613862 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.provider_pipeline.provider_types' (models\provider_types.sql) depends on a node named 'providers' which was not found
+[0m18:03:25.615499 [debug] [MainThread]: Command `dbt run` failed at 18:03:25.615334 after 1.02 seconds
+[0m18:03:25.616037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CADAAE2750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CADAAE2C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001CADAE02F30>]}
+[0m18:03:25.616407 [debug] [MainThread]: Flushing usage events
+[0m18:03:26.419941 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:04:40.213746 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015019AAE900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000015017AA65D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001501A759810>]}
+
+
+============================== 18:04:40.217681 | c5405bd7-217a-4647-b520-98bf8e5a73f6 ==============================
+[0m18:04:40.217681 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:04:40.218437 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt list', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:04:40.398262 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c5405bd7-217a-4647-b520-98bf8e5a73f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001501ADCE9E0>]}
+[0m18:04:40.445942 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c5405bd7-217a-4647-b520-98bf8e5a73f6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001501ACBDAE0>]}
+[0m18:04:40.449544 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m18:04:40.708762 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m18:04:40.813520 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 0 files changed.
+[0m18:04:40.814040 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider_types.sql
+[0m18:04:40.814393 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider_address_agg.sql
+[0m18:04:40.974673 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.provider_pipeline.provider_types' (models\provider_types.sql) depends on a node named 'providers' which was not found
+[0m18:04:40.976060 [debug] [MainThread]: Command `dbt list` failed at 18:04:40.975916 after 1.04 seconds
+[0m18:04:40.976574 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001501ACB2750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001501ACB2C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001501AF52F30>]}
+[0m18:04:40.977070 [debug] [MainThread]: Flushing usage events
+[0m18:04:41.893292 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:16:48.528399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1CE58A900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1CC5865D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1CF231810>]}
+
+
+============================== 18:16:48.532184 | 03fab454-9e5c-4448-9e64-ed23f0b33e56 ==============================
+[0m18:16:48.532184 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:16:48.533053 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m18:16:48.712178 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '03fab454-9e5c-4448-9e64-ed23f0b33e56', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1CF89A9E0>]}
+[0m18:16:48.759206 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '03fab454-9e5c-4448-9e64-ed23f0b33e56', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1CF7A99D0>]}
+[0m18:16:48.763060 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m18:16:49.028128 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m18:16:49.125363 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 3 files added, 0 files changed.
+[0m18:16:49.125890 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider_address_agg.sql
+[0m18:16:49.126265 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider.sql
+[0m18:16:49.126572 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider_types.sql
+[0m18:16:49.287061 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.provider_pipeline.provider_types' (models\provider_types.sql) depends on a node named 'providers' which was not found
+[0m18:16:49.288450 [debug] [MainThread]: Command `dbt run` failed at 18:16:49.288319 after 0.92 seconds
+[0m18:16:49.288931 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1CF792750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1CF792C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C1CFA52F30>]}
+[0m18:16:49.289385 [debug] [MainThread]: Flushing usage events
+[0m18:16:50.302579 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:50:04.981486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267CE75E900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267CC7565D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267CF409810>]}
+
+
+============================== 18:50:04.988752 | 8db00b4f-4b4d-46b2-a6be-6adf4df55691 ==============================
+[0m18:50:04.988752 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:50:04.989750 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt seed', 'send_anonymous_usage_stats': 'True'}
+[0m18:50:05.566842 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8db00b4f-4b4d-46b2-a6be-6adf4df55691', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267CFAF69E0>]}
+[0m18:50:05.619999 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8db00b4f-4b4d-46b2-a6be-6adf4df55691', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267CF9759D0>]}
+[0m18:50:05.626279 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m18:50:05.931761 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m18:50:06.073891 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 3 files added, 0 files changed.
+[0m18:50:06.074446 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider_address_agg.sql
+[0m18:50:06.074804 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider.sql
+[0m18:50:06.075093 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider_types.sql
+[0m18:50:06.262518 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.provider_pipeline.provider_address_agg' (models\provider_address_agg.sql) depends on a node named 'providers' which was not found
+[0m18:50:06.263882 [debug] [MainThread]: Command `dbt seed` failed at 18:50:06.263728 after 1.42 seconds
+[0m18:50:06.264519 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267CF95E750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267CF95EC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000267CFC86F30>]}
+[0m18:50:06.264931 [debug] [MainThread]: Flushing usage events
+[0m18:50:07.175802 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:57:27.630813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226D754E900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226D55465D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226D81F5810>]}
+
+
+============================== 18:57:27.634919 | b935fa1a-6e89-482d-82b5-f0c3c129d0bd ==============================
+[0m18:57:27.634919 [info ] [MainThread]: Running with dbt=1.9.4
+[0m18:57:27.635561 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt list', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:57:27.832990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b935fa1a-6e89-482d-82b5-f0c3c129d0bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226D88EA9E0>]}
+[0m18:57:27.893862 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b935fa1a-6e89-482d-82b5-f0c3c129d0bd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226D8755E10>]}
+[0m18:57:27.898131 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m18:57:28.189674 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m18:57:28.305377 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 3 files added, 0 files changed.
+[0m18:57:28.306028 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider_types.sql
+[0m18:57:28.306443 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider_address_agg.sql
+[0m18:57:28.306783 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider.sql
+[0m18:57:28.521352 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.provider_pipeline.provider_types' (models\provider_types.sql) depends on a node named 'providers' which was not found
+[0m18:57:28.522695 [debug] [MainThread]: Command `dbt list` failed at 18:57:28.522488 after 1.16 seconds
+[0m18:57:28.523170 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226D8752B50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226D8752950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000226D8A72F30>]}
+[0m18:57:28.523604 [debug] [MainThread]: Flushing usage events
+[0m18:57:29.505709 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:01:08.297267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000256F8C9A900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000256F6CB25D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000256F9969810>]}
+
+
+============================== 19:01:08.301328 | 070c9efe-d96e-475d-963f-06de150b6fca ==============================
+[0m19:01:08.301328 [info ] [MainThread]: Running with dbt=1.9.4
+[0m19:01:08.302031 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:01:08.333900 [info ] [MainThread]: dbt version: 1.9.4
+[0m19:01:08.334463 [info ] [MainThread]: python version: 3.13.2
+[0m19:01:08.334982 [info ] [MainThread]: python path: C:\Users\AvinashR2\AppData\Local\pypoetry\Cache\virtualenvs\dbt-assessment-nySvF-L4-py3.13\Scripts\python.exe
+[0m19:01:08.335608 [info ] [MainThread]: os info: Windows-11-10.0.22631-SP0
+[0m19:01:08.420668 [info ] [MainThread]: Using profiles dir at C:\Users\AvinashR2\.dbt
+[0m19:01:08.421511 [info ] [MainThread]: Using profiles.yml file at C:\Users\AvinashR2\.dbt\profiles.yml
+[0m19:01:08.422122 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\AvinashR2\dbt-assesment\dbt_project.yml
+[0m19:01:08.426207 [info ] [MainThread]: adapter type: duckdb
+[0m19:01:08.426856 [info ] [MainThread]: adapter version: 1.9.2
+[0m19:01:08.508002 [info ] [MainThread]: Configuration:
+[0m19:01:08.508911 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:01:08.509594 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m19:01:08.510238 [info ] [MainThread]: Required dependencies:
+[0m19:01:08.510810 [debug] [MainThread]: Executing "git --help"
+[0m19:01:08.599130 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:01:08.599684 [debug] [MainThread]: STDERR: "b''"
+[0m19:01:08.600132 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:01:08.600676 [info ] [MainThread]: Connection:
+[0m19:01:08.601340 [info ] [MainThread]:   database: dev
+[0m19:01:08.602134 [info ] [MainThread]:   schema: main
+[0m19:01:08.602723 [info ] [MainThread]:   path: dev.duckdb
+[0m19:01:08.603451 [info ] [MainThread]:   config_options: None
+[0m19:01:08.604311 [info ] [MainThread]:   extensions: None
+[0m19:01:08.605033 [info ] [MainThread]:   settings: {}
+[0m19:01:08.605523 [info ] [MainThread]:   external_root: .
+[0m19:01:08.606023 [info ] [MainThread]:   use_credential_provider: None
+[0m19:01:08.606578 [info ] [MainThread]:   attach: None
+[0m19:01:08.607388 [info ] [MainThread]:   filesystems: None
+[0m19:01:08.607896 [info ] [MainThread]:   remote: None
+[0m19:01:08.608526 [info ] [MainThread]:   plugins: None
+[0m19:01:08.609114 [info ] [MainThread]:   disable_transactions: False
+[0m19:01:08.609971 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m19:01:08.915714 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m19:01:09.133813 [debug] [MainThread]: Using duckdb connection "debug"
+[0m19:01:09.134308 [debug] [MainThread]: On debug: select 1 as id
+[0m19:01:09.134646 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:01:09.157352 [debug] [MainThread]: SQL status: OK in 0.022 seconds
+[0m19:01:09.158380 [debug] [MainThread]: On debug: Close
+[0m19:01:09.158806 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m19:01:09.159222 [info ] [MainThread]: [32mAll checks passed![0m
+[0m19:01:09.160391 [debug] [MainThread]: Command `dbt debug` succeeded at 19:01:09.160233 after 1.09 seconds
+[0m19:01:09.161048 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:01:09.161427 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000256FA171F30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000256FB5B44D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000256F9E7BAC0>]}
+[0m19:01:09.161813 [debug] [MainThread]: Flushing usage events
+[0m19:01:10.163452 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:01:30.709483 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220D847A900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220D64765D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220D9125810>]}
+
+
+============================== 19:01:30.713498 | 522baa5a-c629-4c7e-97da-61839654d30f ==============================
+[0m19:01:30.713498 [info ] [MainThread]: Running with dbt=1.9.4
+[0m19:01:30.714194 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt seed', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:01:30.897926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '522baa5a-c629-4c7e-97da-61839654d30f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220D97869E0>]}
+[0m19:01:30.948523 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '522baa5a-c629-4c7e-97da-61839654d30f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220D96959D0>]}
+[0m19:01:30.952495 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m19:01:31.228410 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m19:01:31.336614 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 3 files added, 0 files changed.
+[0m19:01:31.337162 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider_types.sql
+[0m19:01:31.337516 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider.sql
+[0m19:01:31.337813 [debug] [MainThread]: Partial parsing: added file: provider_pipeline://models\provider_address_agg.sql
+[0m19:01:31.510495 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.provider_pipeline.provider_types' (models\provider_types.sql) depends on a node named 'providers' which was not found
+[0m19:01:31.512127 [debug] [MainThread]: Command `dbt seed` failed at 19:01:31.511980 after 0.93 seconds
+[0m19:01:31.512813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220D967E750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220D967EC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220D9946F30>]}
+[0m19:01:31.513181 [debug] [MainThread]: Flushing usage events
+[0m19:01:32.317934 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:08:50.334589 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002178293A900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217809A65D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000217835F9810>]}
+
+
+============================== 19:08:50.338676 | f08343c3-2396-4496-8069-90d38abd4163 ==============================
+[0m19:08:50.338676 [info ] [MainThread]: Running with dbt=1.9.4
+[0m19:08:50.339334 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:08:50.523853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f08343c3-2396-4496-8069-90d38abd4163', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021783D4A9E0>]}
+[0m19:08:50.576825 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f08343c3-2396-4496-8069-90d38abd4163', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021783B699D0>]}
+[0m19:08:50.580741 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m19:08:50.847569 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m19:08:50.880649 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m19:08:50.881485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f08343c3-2396-4496-8069-90d38abd4163', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021785024F50>]}
+[0m19:08:51.641316 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.provider_pipeline.provider_address_agg' (models\provider_address_agg.sql) depends on a node named 'providers' which was not found
+[0m19:08:51.642670 [debug] [MainThread]: Command `dbt run` failed at 19:08:51.642523 after 1.57 seconds
+[0m19:08:51.643080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021783ED34D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021784F9C7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002178397FE70>]}
+[0m19:08:51.643649 [debug] [MainThread]: Flushing usage events
+[0m19:08:52.665624 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:13:15.737271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C99F3E900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C97F365D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C9ABE1810>]}
+
+
+============================== 19:13:15.741470 | 13e653d3-eb3b-45e6-9ee8-1e58fd6fad1f ==============================
+[0m19:13:15.741470 [info ] [MainThread]: Running with dbt=1.9.4
+[0m19:13:15.742209 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:13:15.945997 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '13e653d3-eb3b-45e6-9ee8-1e58fd6fad1f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C9B25A9E0>]}
+[0m19:13:16.012183 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '13e653d3-eb3b-45e6-9ee8-1e58fd6fad1f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C9B1599D0>]}
+[0m19:13:16.017234 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m19:13:16.321947 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m19:13:16.361508 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m19:13:16.362277 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '13e653d3-eb3b-45e6-9ee8-1e58fd6fad1f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C9C530F50>]}
+[0m19:13:17.143308 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.provider_pipeline.provider_address_agg' (models\provider_address_agg.sql) depends on a node named 'providers' which was not found
+[0m19:13:17.144774 [debug] [MainThread]: Command `dbt run` failed at 19:13:17.144627 after 1.69 seconds
+[0m19:13:17.145482 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C9B3E34D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C9C4A87D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017C9AF6FE70>]}
+[0m19:13:17.145855 [debug] [MainThread]: Flushing usage events
+[0m19:13:18.174719 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:13:41.107354 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255A9D1A900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255A7D1A5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255AA9D1810>]}
+
+
+============================== 19:13:41.111508 | 5b40ec63-cb1d-427f-8cf2-2ca77402dbd0 ==============================
+[0m19:13:41.111508 [info ] [MainThread]: Running with dbt=1.9.4
+[0m19:13:41.112273 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:13:41.297577 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '5b40ec63-cb1d-427f-8cf2-2ca77402dbd0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255AB03A9E0>]}
+[0m19:13:41.354677 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '5b40ec63-cb1d-427f-8cf2-2ca77402dbd0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255AAF499D0>]}
+[0m19:13:41.358586 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m19:13:41.653278 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m19:13:41.685980 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m19:13:41.686816 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '5b40ec63-cb1d-427f-8cf2-2ca77402dbd0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255AC3A4F50>]}
+[0m19:13:42.459380 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.provider_pipeline.provider_address_agg' (models\provider_address_agg.sql) depends on a node named 'providers' which was not found
+[0m19:13:42.460947 [debug] [MainThread]: Command `dbt run` failed at 19:13:42.460785 after 1.49 seconds
+[0m19:13:42.461685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255AB2534D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255AC31C7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000255AAD5FE70>]}
+[0m19:13:42.462093 [debug] [MainThread]: Flushing usage events
+[0m19:13:43.355343 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:15:18.158591 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F331BAA900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F32FBA65D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F332869810>]}
+
+
+============================== 19:15:18.162719 | 881a995f-fe6f-4254-9c31-fc489b92f387 ==============================
+[0m19:15:18.162719 [info ] [MainThread]: Running with dbt=1.9.4
+[0m19:15:18.163372 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m19:15:18.359362 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '881a995f-fe6f-4254-9c31-fc489b92f387', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F332FCA9E0>]}
+[0m19:15:18.410452 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '881a995f-fe6f-4254-9c31-fc489b92f387', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F332DD99D0>]}
+[0m19:15:18.414218 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m19:15:18.708295 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m19:15:18.739290 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m19:15:18.740005 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '881a995f-fe6f-4254-9c31-fc489b92f387', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3342A4F50>]}
+[0m19:15:19.498567 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.provider_pipeline.provider_address_agg' (models\provider_address_agg.sql) depends on a node named 'providers' which was not found
+[0m19:15:19.499880 [debug] [MainThread]: Command `dbt run` failed at 19:15:19.499754 after 1.60 seconds
+[0m19:15:19.500271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F3331534D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F33421C7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F332BEFE70>]}
+[0m19:15:19.500844 [debug] [MainThread]: Flushing usage events
+[0m19:15:20.513148 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:16:21.639358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF4F12A900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF4D1065D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF4FDD1810>]}
+
+
+============================== 19:16:21.643404 | d703ddce-4c4c-46b1-baed-86c7a8b65c7c ==============================
+[0m19:16:21.643404 [info ] [MainThread]: Running with dbt=1.9.4
+[0m19:16:21.644179 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:16:21.841865 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'd703ddce-4c4c-46b1-baed-86c7a8b65c7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF5043A9E0>]}
+[0m19:16:21.894957 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'd703ddce-4c4c-46b1-baed-86c7a8b65c7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF503499D0>]}
+[0m19:16:21.898862 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m19:16:22.187952 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m19:16:22.219095 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m19:16:22.219832 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'd703ddce-4c4c-46b1-baed-86c7a8b65c7c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF51754F50>]}
+[0m19:16:22.980986 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.provider_pipeline.provider_address_agg' (models\provider_address_agg.sql) depends on a node named 'providers' which was not found
+[0m19:16:22.982421 [debug] [MainThread]: Command `dbt run` failed at 19:16:22.982282 after 1.47 seconds
+[0m19:16:22.983073 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF506034D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF506E87D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AF5015FE70>]}
+[0m19:16:22.983468 [debug] [MainThread]: Flushing usage events
+[0m19:16:23.830317 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:20:27.239328 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C8698E900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C849865D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C87641810>]}
+
+
+============================== 19:20:27.243536 | acf00842-7612-4fe2-8167-39677a3f7dbc ==============================
+[0m19:20:27.243536 [info ] [MainThread]: Running with dbt=1.9.4
+[0m19:20:27.244182 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:20:27.437247 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'acf00842-7612-4fe2-8167-39677a3f7dbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C87CCA9E0>]}
+[0m19:20:27.492702 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'acf00842-7612-4fe2-8167-39677a3f7dbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C87BB99D0>]}
+[0m19:20:27.496827 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m19:20:27.860042 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m19:20:27.895453 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m19:20:27.896235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'acf00842-7612-4fe2-8167-39677a3f7dbc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C88FA0F50>]}
+[0m19:20:28.672641 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.provider_pipeline.provider_address_agg' (models\provider_address_agg.sql) depends on a node named 'providers' which was not found
+[0m19:20:28.674032 [debug] [MainThread]: Command `dbt run` failed at 19:20:28.673905 after 1.57 seconds
+[0m19:20:28.674855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C87E534D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C87F4C7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016C879CFE70>]}
+[0m19:20:28.675280 [debug] [MainThread]: Flushing usage events
+[0m19:20:29.673050 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:22:11.434936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025647CEA900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025645CE65D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025648999810>]}
+
+
+============================== 19:22:11.439261 | 7de443a5-6b3f-493f-9902-16471a6dda24 ==============================
+[0m19:22:11.439261 [info ] [MainThread]: Running with dbt=1.9.4
+[0m19:22:11.440001 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:22:11.645314 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7de443a5-6b3f-493f-9902-16471a6dda24', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025648FFA9E0>]}
+[0m19:22:11.699412 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7de443a5-6b3f-493f-9902-16471a6dda24', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025648F099D0>]}
+[0m19:22:11.703334 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m19:22:11.983140 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m19:22:12.023674 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m19:22:12.024638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '7de443a5-6b3f-493f-9902-16471a6dda24', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002564A2F0F50>]}
+[0m19:22:12.648223 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.provider_pipeline.example
+[0m19:22:12.654455 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7de443a5-6b3f-493f-9902-16471a6dda24', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025648D372F0>]}
+[0m19:22:12.733927 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\AvinashR2\dbt-assesment\target\manifest.json
+[0m19:22:12.737136 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\AvinashR2\dbt-assesment\target\semantic_manifest.json
+[0m19:22:12.768763 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7de443a5-6b3f-493f-9902-16471a6dda24', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025648F220B0>]}
+[0m19:22:12.769293 [info ] [MainThread]: Found 426 macros
+[0m19:22:12.769954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7de443a5-6b3f-493f-9902-16471a6dda24', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002564927AEA0>]}
+[0m19:22:12.771372 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m19:22:12.772127 [debug] [MainThread]: Command end result
+[0m19:22:12.791543 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\AvinashR2\dbt-assesment\target\manifest.json
+[0m19:22:12.796025 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\AvinashR2\dbt-assesment\target\semantic_manifest.json
+[0m19:22:12.799953 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\AvinashR2\dbt-assesment\target\run_results.json
+[0m19:22:12.801252 [debug] [MainThread]: Command `dbt run` succeeded at 19:22:12.801079 after 1.50 seconds
+[0m19:22:12.801795 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025648E8C650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002564A2E09F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002564A384F70>]}
+[0m19:22:12.802230 [debug] [MainThread]: Flushing usage events
+[0m19:22:13.628981 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:26:07.603402 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5335FE900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5315F25D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5342A9810>]}
+
+
+============================== 19:26:07.607508 | 94082661-32ea-4fd2-8bb2-fd8ad874f2c4 ==============================
+[0m19:26:07.607508 [info ] [MainThread]: Running with dbt=1.9.4
+[0m19:26:07.608222 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m19:26:07.805277 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '94082661-32ea-4fd2-8bb2-fd8ad874f2c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D534A0A9E0>]}
+[0m19:26:07.860151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '94082661-32ea-4fd2-8bb2-fd8ad874f2c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D534819D00>]}
+[0m19:26:07.864511 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m19:26:08.185275 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m19:26:08.217927 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m19:26:08.218728 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '94082661-32ea-4fd2-8bb2-fd8ad874f2c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D535CE4F50>]}
+[0m19:26:08.912537 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models
+- seeds.provider_pipeline
+[0m19:26:08.918254 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '94082661-32ea-4fd2-8bb2-fd8ad874f2c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5346472F0>]}
+[0m19:26:08.994760 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\AvinashR2\dbt-assesment\target\manifest.json
+[0m19:26:08.997639 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\AvinashR2\dbt-assesment\target\semantic_manifest.json
+[0m19:26:09.020680 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '94082661-32ea-4fd2-8bb2-fd8ad874f2c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D5348320B0>]}
+[0m19:26:09.021230 [info ] [MainThread]: Found 426 macros
+[0m19:26:09.021863 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '94082661-32ea-4fd2-8bb2-fd8ad874f2c4', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D535C02EA0>]}
+[0m19:26:09.023131 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m19:26:09.024673 [debug] [MainThread]: Command end result
+[0m19:26:09.044894 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\AvinashR2\dbt-assesment\target\manifest.json
+[0m19:26:09.049514 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\AvinashR2\dbt-assesment\target\semantic_manifest.json
+[0m19:26:09.052882 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\AvinashR2\dbt-assesment\target\run_results.json
+[0m19:26:09.053975 [debug] [MainThread]: Command `dbt run` succeeded at 19:26:09.053837 after 1.59 seconds
+[0m19:26:09.054492 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D53479C650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D535CD09F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D535CB8F70>]}
+[0m19:26:09.054885 [debug] [MainThread]: Flushing usage events
+[0m19:26:09.976288 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:31:35.440790 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218C0B0E900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218BEAFE5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218C17B9810>]}
+
+
+============================== 19:31:35.444897 | 0baaca6d-ebcd-4cc5-9bb8-c6f994b61acf ==============================
+[0m19:31:35.444897 [info ] [MainThread]: Running with dbt=1.9.4
+[0m19:31:35.445575 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:31:35.654475 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0baaca6d-ebcd-4cc5-9bb8-c6f994b61acf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218C1EFA9E0>]}
+[0m19:31:35.711217 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0baaca6d-ebcd-4cc5-9bb8-c6f994b61acf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218C1D29D00>]}
+[0m19:31:35.715211 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m19:31:35.989982 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m19:31:36.094254 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m19:31:36.094717 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m19:31:36.095286 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models
+- seeds.provider_pipeline
+[0m19:31:36.101355 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0baaca6d-ebcd-4cc5-9bb8-c6f994b61acf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218C31D5450>]}
+[0m19:31:36.155445 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\AvinashR2\dbt-assesment\target\manifest.json
+[0m19:31:36.159448 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\AvinashR2\dbt-assesment\target\semantic_manifest.json
+[0m19:31:36.191114 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0baaca6d-ebcd-4cc5-9bb8-c6f994b61acf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218C0B7B3E0>]}
+[0m19:31:36.191947 [info ] [MainThread]: Found 426 macros
+[0m19:31:36.192655 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0baaca6d-ebcd-4cc5-9bb8-c6f994b61acf', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218C3275630>]}
+[0m19:31:36.195575 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m19:31:36.200015 [debug] [MainThread]: Command end result
+[0m19:31:36.228178 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\AvinashR2\dbt-assesment\target\manifest.json
+[0m19:31:36.232723 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\AvinashR2\dbt-assesment\target\semantic_manifest.json
+[0m19:31:36.236395 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\AvinashR2\dbt-assesment\target\run_results.json
+[0m19:31:36.237857 [debug] [MainThread]: Command `dbt run` succeeded at 19:31:36.237665 after 0.97 seconds
+[0m19:31:36.238481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218C326BEE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218C1CAC650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000218C322B590>]}
+[0m19:31:36.239087 [debug] [MainThread]: Flushing usage events
+[0m19:31:37.246830 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:02:21.322874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B1E338A900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B1E13865D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B1E4035810>]}
+
+
+============================== 20:02:21.326850 | 03c4be65-43e3-4e25-9de3-b4673f834c14 ==============================
+[0m20:02:21.326850 [info ] [MainThread]: Running with dbt=1.9.4
+[0m20:02:21.327729 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:02:21.328325 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\AvinashR2\dbt-assesment\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:02:21.329722 [debug] [MainThread]: Command `dbt run` failed at 20:02:21.329598 after 0.28 seconds
+[0m20:02:21.330116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B1E43E3490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B1E436F770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B1E434B9B0>]}
+[0m20:02:21.330496 [debug] [MainThread]: Flushing usage events
+[0m20:02:22.157778 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:03:19.038378 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA63E6E900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA61E465D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA64B05810>]}
+
+
+============================== 20:03:19.042269 | 1e18a288-68e2-4789-a5d9-5832d017d28b ==============================
+[0m20:03:19.042269 [info ] [MainThread]: Running with dbt=1.9.4
+[0m20:03:19.043275 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m20:03:19.243358 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1e18a288-68e2-4789-a5d9-5832d017d28b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA6518A9E0>]}
+[0m20:03:19.291949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1e18a288-68e2-4789-a5d9-5832d017d28b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA65095D00>]}
+[0m20:03:19.295636 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m20:03:19.553294 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m20:03:19.582351 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m20:03:19.583463 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1e18a288-68e2-4789-a5d9-5832d017d28b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA66460F50>]}
+[0m20:03:20.182414 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 2 unused configuration paths:
+- models
+- seeds.provider_pipeline
+[0m20:03:20.188349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1e18a288-68e2-4789-a5d9-5832d017d28b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA64EB72F0>]}
+[0m20:03:20.266324 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\AvinashR2\dbt-assesment\target\manifest.json
+[0m20:03:20.268880 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\AvinashR2\dbt-assesment\target\semantic_manifest.json
+[0m20:03:20.289926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1e18a288-68e2-4789-a5d9-5832d017d28b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA650A60B0>]}
+[0m20:03:20.290649 [info ] [MainThread]: Found 426 macros
+[0m20:03:20.291863 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '1e18a288-68e2-4789-a5d9-5832d017d28b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA653EAEA0>]}
+[0m20:03:20.293074 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m20:03:20.294257 [debug] [MainThread]: Command end result
+[0m20:03:20.310927 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\AvinashR2\dbt-assesment\target\manifest.json
+[0m20:03:20.313292 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\AvinashR2\dbt-assesment\target\semantic_manifest.json
+[0m20:03:20.316199 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\AvinashR2\dbt-assesment\target\run_results.json
+[0m20:03:20.317116 [debug] [MainThread]: Command `dbt run` succeeded at 20:03:20.317002 after 1.41 seconds
+[0m20:03:20.317476 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA6500C650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA664509F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DA664F8F70>]}
+[0m20:03:20.317812 [debug] [MainThread]: Flushing usage events
+[0m20:03:21.167885 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:04:54.664862 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280AC3CE900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280AA3C65D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280AD075810>]}
+
+
+============================== 20:04:54.668903 | 54659ff5-940f-4d3a-b089-a76cc5b28695 ==============================
+[0m20:04:54.668903 [info ] [MainThread]: Running with dbt=1.9.4
+[0m20:04:54.669696 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:04:54.670277 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\AvinashR2\dbt-assesment\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m20:04:54.671834 [debug] [MainThread]: Command `dbt run` failed at 20:04:54.671687 after 0.27 seconds
+[0m20:04:54.672231 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280AD423490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280AD3AF770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000280AD38B9B0>]}
+[0m20:04:54.672625 [debug] [MainThread]: Flushing usage events
+[0m20:04:55.756827 [debug] [MainThread]: An error was encountered while trying to flush usage events

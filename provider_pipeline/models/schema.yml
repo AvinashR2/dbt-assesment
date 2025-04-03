@@ -1,0 +1,12 @@
+
+version: 2
+
+sources:
+  - name: my_source
+    tables:
+      - name: providers
+      - name: addresses
+
+models:
+  - name: provider_address_agg
+    description: "Aggregates provider and address information"
