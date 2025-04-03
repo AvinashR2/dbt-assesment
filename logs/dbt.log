@@ -1,0 +1,80 @@
+[0m14:40:27.671934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CF86913620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CF859387D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CF88719E50>]}
+
+
+============================== 14:40:27.712178 | addf9667-2ef4-4d76-bd91-9dec12752ec1 ==============================
+[0m14:40:27.712178 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:40:27.713780 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init', 'send_anonymous_usage_stats': 'True'}
+[0m14:40:27.897899 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/AvinashR2/.dbt')}
+[0m14:40:27.898613 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m14:43:26.540962 [debug] [MainThread]: Starter project path: C:\Users\AvinashR2\AppData\Local\pypoetry\Cache\virtualenvs\dbt-assessment-nySvF-L4-py3.13\Lib\site-packages\dbt\include\starter_project
+[0m14:43:26.591786 [info ] [MainThread]: 
+Your new dbt project "provider_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:43:26.592493 [info ] [MainThread]: Setting up your profile.
+[0m14:44:31.768462 [info ] [MainThread]: Profile provider_pipeline written to C:\Users\AvinashR2\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m14:44:31.769854 [debug] [MainThread]: Command `dbt init` succeeded at 14:44:31.769669 after 244.36 seconds
+[0m14:44:31.770336 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CF88C4EC40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CF88BCAC30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002CF88C669C0>]}
+[0m14:44:31.770866 [debug] [MainThread]: Flushing usage events
+[0m14:44:32.769776 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:49:36.323232 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DFB0AF2900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DFAEAF65D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DFB17B5810>]}
+
+
+============================== 14:49:36.326945 | 7e90f9a0-7252-4e5f-92cc-5a88584d8459 ==============================
+[0m14:49:36.326945 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:49:36.327704 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt seed', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:49:36.328319 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\AvinashR2\dbt-assesment\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:49:36.329564 [debug] [MainThread]: Command `dbt seed` failed at 14:49:36.329443 after 0.30 seconds
+[0m14:49:36.330068 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DFB1B53490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DFB1ACF890>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DFB1ABB9B0>]}
+[0m14:49:36.330431 [debug] [MainThread]: Flushing usage events
+[0m14:49:37.381031 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:50:10.698062 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1A9E12900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1A7E165D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1AAAC1810>]}
+
+
+============================== 14:50:10.702102 | 08371bad-3a95-4c01-81dd-abd560ac76af ==============================
+[0m14:50:10.702102 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:50:10.702889 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AvinashR2\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'C:\\Users\\AvinashR2\\dbt-assesment\\logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt seed', 'send_anonymous_usage_stats': 'True'}
+[0m14:50:10.911530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '08371bad-3a95-4c01-81dd-abd560ac76af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1AB1B69E0>]}
+[0m14:50:10.966038 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '08371bad-3a95-4c01-81dd-abd560ac76af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1AB0359D0>]}
+[0m14:50:10.974042 [info ] [MainThread]: Registered adapter: duckdb=1.9.2
+[0m14:50:11.236129 [debug] [MainThread]: checksum: b5597158181700c50f5bc1c71fe28b37a6fb85633dc5323885263678b6bc782c, vars: {}, profile: , target: , version: 1.9.4
+[0m14:50:11.237032 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m14:50:11.237751 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '08371bad-3a95-4c01-81dd-abd560ac76af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1AB01D150>]}
+[0m14:50:12.259060 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.provider_pipeline.example
+[0m14:50:12.264044 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '08371bad-3a95-4c01-81dd-abd560ac76af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1AAA46120>]}
+[0m14:50:12.324158 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\AvinashR2\dbt-assesment\target\manifest.json
+[0m14:50:12.334483 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\AvinashR2\dbt-assesment\target\semantic_manifest.json
+[0m14:50:12.483055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '08371bad-3a95-4c01-81dd-abd560ac76af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1AB17A0B0>]}
+[0m14:50:12.483612 [info ] [MainThread]: Found 426 macros
+[0m14:50:12.484729 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '08371bad-3a95-4c01-81dd-abd560ac76af', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1AC385B20>]}
+[0m14:50:12.488512 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m14:50:12.490117 [debug] [MainThread]: Command end result
+[0m14:50:12.523996 [debug] [MainThread]: Wrote artifact WritableManifest to C:\Users\AvinashR2\dbt-assesment\target\manifest.json
+[0m14:50:12.526894 [debug] [MainThread]: Wrote artifact SemanticManifest to C:\Users\AvinashR2\dbt-assesment\target\semantic_manifest.json
+[0m14:50:12.530958 [debug] [MainThread]: Wrote artifact RunExecutionResult to C:\Users\AvinashR2\dbt-assesment\target\run_results.json
+[0m14:50:12.531350 [info ] [MainThread]: 
+[0m14:50:12.532081 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:50:12.532902 [info ] [MainThread]: 
+[0m14:50:12.533513 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=0 SKIP=0 TOTAL=0
+[0m14:50:12.534783 [debug] [MainThread]: Command `dbt seed` succeeded at 14:50:12.534633 after 2.00 seconds
+[0m14:50:12.535659 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1AAFB8650>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1AB2FBD80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F1AC4E3A10>]}
+[0m14:50:12.536155 [debug] [MainThread]: Flushing usage events
+[0m14:50:13.422341 [debug] [MainThread]: An error was encountered while trying to flush usage events
