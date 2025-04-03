@@ -4,12 +4,14 @@ WITH provider_address_data AS (
         p.provider_name,
         COALESCE(ARRAY_AGG(a.address), ARRAY[]::TEXT[]) AS addresses
     FROM
-        {{ ref('providers') }} AS p
+        providers AS p  -- No ref function if it's a table
     LEFT JOIN
-        {{ ref('addresses') }} AS a
+        addresses AS a   -- No ref function if it's a table
         ON p.provider_id = a.provider_id
     GROUP BY
         p.provider_id, p.provider_name
 )
 
 SELECT * FROM provider_address_data;
+
+
